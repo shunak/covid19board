@@ -1,7 +1,9 @@
 # install components
 
 - install redux typescript
+```
 npx create-react-app . --template redux-typescript --use-npm
+```
 
 - install axios
 ```
