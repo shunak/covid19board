@@ -1,4 +1,4 @@
-# install components
+# install modules
 
 - install redux typescript
 ```
