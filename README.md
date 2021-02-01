@@ -1,3 +1,36 @@
+・install redux typescript
+npx create-react-app . --template redux-typescript --use-npm
+
+- install axios
+```
+npm install axios
+```
+
+- install material ui
+```
+npm install @material-ui/core
+```
+
+- install chartjs
+```
+npm install --save chart.js
+npm install react-chartjs-2
+```
+
+- install react countup
+```
+npm install react-countup
+```
+
+- install react icons
+```
+npm install react-icons
+```
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
