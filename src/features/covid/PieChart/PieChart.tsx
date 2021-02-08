@@ -20,6 +20,11 @@ const PieChart: React.FC = () => {
               daily[daily.length - 1].Recovered,
               daily[daily.length - 1].Deaths,
             ],
+            backgroundColor: [
+              "rgba(0,0,255,0.5)",
+              "#008080",
+              "rgba(255,0,0,0.5",
+            ],
             hoverBackgroundColor: ["#36A2EB", "#3cb371", "#FF6384"],
             borderColor: ["transparent", "transparent", "transparent"],
           },

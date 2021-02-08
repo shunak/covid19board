@@ -21,7 +21,7 @@ const Chart: React.FC = () => {
             showLine: false,
           },
           {
-            data: daily.map((data) => data.Confirmed),
+            data: daily.map((data) => data.Recovered),
             label: "Recovered",
             borderColor: "green",
             showLine: false,

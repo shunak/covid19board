@@ -1,5 +1,5 @@
 import React from "react";
-import { makeStyles, ThemeProvider } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { NativeSelect, FormControl } from "@material-ui/core";
 import { useDispatch } from "react-redux";
 import { fetchAsyncGetDaily } from "../covidSlice";

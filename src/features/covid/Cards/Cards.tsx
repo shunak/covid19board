@@ -1,13 +1,7 @@
 import React from "react";
 import styles from "./Cards.module.css";
 import CountUp from "react-countup";
-import {
-  Card,
-  CardContent,
-  Typography,
-  Grid,
-  Container,
-} from "@material-ui/core";
+import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 
 import { GiHastyGrave } from "react-icons/gi";
 import { MdLocalHospital } from "react-icons/md";
@@ -37,12 +31,10 @@ const Cards: React.FC = () => {
             </Typography>
           </CardContent>
         </Grid>
-      </Grid>
-      <Grid container spacing={1} justify="center">
-        <Grid item xs={12} md={3} component={Card} className={styles.recovered}>
+         <Grid item xs={12} md={3} component={Card} className={styles.recovered}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              <MdLocalHospital />
+              <AiFillLike />
               Recovered persons
             </Typography>
             <Typography variant="h5">
@@ -54,13 +46,11 @@ const Cards: React.FC = () => {
               />
             </Typography>
           </CardContent>
-        </Grid>
-      </Grid>
-      <Grid container spacing={1} justify="center">
-        <Grid item xs={12} md={3} component={Card} className={styles.deaths}>
+          </Grid>
+          <Grid item xs={12} md={3} component={Card} className={styles.deaths}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              <MdLocalHospital />
+              <GiHastyGrave />
               Dead persons
             </Typography>
             <Typography variant="h5">

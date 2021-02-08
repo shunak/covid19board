@@ -1,6 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { create } from "domain";
 import { RootState } from "../../app/store";
 import dataDaily from "./apiDataDaily.json";
 
