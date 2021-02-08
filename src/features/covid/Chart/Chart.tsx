@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Chart.module.css ";
+import styles from "./Chart.module.css";
 import { Line } from "react-chartjs-2";
 import { useSelector } from "react-redux";
 import { selectDaily } from "../covidSlice";
