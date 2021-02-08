@@ -29,9 +29,29 @@ npm install react-countup
 - install react icons
 ```
 npm install react-icons
+
 ```
 
+## Deployment
 
+- Build for Deployment
+```
+npm run build
+```
+## Deployment to Firebase 
+
+```
+npm install firebase tool -g
+```
+```
+firebase login
+```
+```
+firebase init
+```
+```
+firebase deploy
+```
 
 
 
