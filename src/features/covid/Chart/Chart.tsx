@@ -16,19 +16,19 @@ const Chart: React.FC = () => {
         datasets: [
           {
             data: daily.map((data) => data.Confirmed),
-            label: "Infected",
+            label: "感染者数",
             borderColor: "#3333ff",
             showLine: false,
           },
           {
             data: daily.map((data) => data.Recovered),
-            label: "Recovered",
+            label: "回復者数",
             borderColor: "green",
             showLine: false,
           },
           {
             data: daily.map((data) => data.Deaths),
-            label: "Deaths",
+            label: "死者数",
             borderColor: "#ff3370",
             showLine: false,
           },

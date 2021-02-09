@@ -39,7 +39,7 @@ const DashBoard: React.FC = () => {
       <AppBar position="absolute">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Covid 19 Live Dashboard
+			  各国のコロナウイルス感染状況
           </Typography>
           <div>
             <Typography variant="body1">
