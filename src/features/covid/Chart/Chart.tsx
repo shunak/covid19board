@@ -3,7 +3,6 @@ import styles from "./Chart.module.css";
 import { Line } from "react-chartjs-2";
 import { useSelector } from "react-redux";
 import { selectDaily } from "../covidSlice";
-
 const Chart: React.FC = () => {
   const daily = useSelector(selectDaily);
   const dates = daily.map(({ Date }) => Date);
